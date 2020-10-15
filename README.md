@@ -12,7 +12,7 @@ Maintainers: [@HeroicKatora](https://github.com/HeroicKatora), [@fintelia](https
 
 This crate provides basic image processing functions and methods for converting to and from various image formats.
 
-All image processing functions provided operate on types that implement the `GenericImageView` and `GenericImage` traits and return an `ImageBuffer`.
+All image processing functions provided   and operates on types that implement the `GenericImageView` and `GenericImage` traits and return an `ImageBuffer`.
 
 ## Supported Image Formats
 
@@ -35,9 +35,9 @@ All image processing functions provided operate on types that implement the `Gen
 
 ### The [`ImageDecoder`](https://docs.rs/image/*/image/trait.ImageDecoder.html) and [`ImageDecoderExt`](https://docs.rs/image/*/image/trait.ImageDecoderExt.html) Traits
 
-All image format decoders implement the `ImageDecoder` trait which provide
+All image format decoders implement the `ImageDecoder` trait which provides the
 basic methods for getting image metadata and decoding images. Some formats
-additionally provide `ImageDecoderExt` implementations which allow for
+are additionally provides `ImageDecoderExt` implementations which allow for
 decoding only part of an image at once.
 
 The most important methods for decoders are...
